@@ -20,7 +20,7 @@ export function SiteShell({ children }: SiteShellProps) {
           className="border-b border-slate-200 bg-white/90 backdrop-blur"
           style={{ boxShadow: '0 8px 24px rgba(10,16,36,0.08)' }}
         >
-          <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
+          <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-6">
             <div className="flex items-center gap-2">
               <div
                 className="h-7 w-7 rounded-lg"
@@ -48,7 +48,7 @@ export function SiteShell({ children }: SiteShellProps) {
         <main className="flex-1">{children}</main>
 
         <footer className="border-t border-slate-200 bg-white/80">
-          <div className="mx-auto max-w-6xl px-4 py-3 text-[11px] text-slate-500 md:px-6">
+          <div className="mx-auto max-w-7xl px-4 py-3 text-[11px] text-slate-500 md:px-6">
             © {new Date().getFullYear()} Pôle Assurance NSIA — Site projet interne (maquette).
           </div>
         </footer>

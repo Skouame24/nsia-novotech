@@ -11,13 +11,13 @@ export const staggerContainer: Variants = {
 };
 
 export const fadeInUp: Variants = {
-  hidden: { opacity: 0, y: 18 },
+  hidden: { opacity: 0, y: 10 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.55,
-      ease: [0.25, 0.8, 0.25, 1],
+      duration: 0.5,
+      ease: [0.25, 0.8, 0.4, 1],
     },
   },
 };
